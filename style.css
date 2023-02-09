@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Fat Wandals Font, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #fdb8c0;
@@ -33,6 +33,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
+  transition: all 0.3s ease;
 }
 
 nav ul {
@@ -42,7 +43,7 @@ nav ul {
   display: flex;
 }
 
-nav li {
+nav li:hover {
   margin-right: 20px;
 }
 
@@ -71,6 +72,7 @@ nav a:hover {
 #hero h2 {
   box-shadow: 0 0 0 5px black;
   background-color: black;
+  align-items:center;
   padding: 10px;
   font-size: 36px;
   color: white;
@@ -78,12 +80,12 @@ nav a:hover {
 }
 
 #hero p {
-  box-shadow: 0 0 0 5px black;
+  box-shadow: 100 0 0 5px black;
   background-color: black;
   font-size: 18px;
   color: white;
   text-shadow: 1px 1px #ffb6c1;
-  margin-top: -4px;
+  margin-top: -16px;
 }
 
 section {
@@ -91,17 +93,24 @@ section {
 }
 
 section h2 {
-  font-size: 36px;
+  
+  text-align:center;
+  position: center;
+  font-size: 100px;
   margin-bottom: 40px;
 }
 
 section p {
+  
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 40px;
+  text-align:center;
 }
 
 footer {
+  
+  box-shadow: 0 5px  10px black;
   background-color: #ffb6c1;
   color: white;
   text-align: center;
